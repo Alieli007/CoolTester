@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [RegressionAutomatedQA]" guice-stage="DEVELOPMENT">
+  <test parallel="tests" name="TC01_Login(failed)">
+    <classes>
+      <class name="LoginTestCase.TC01_Login">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="TC01"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC01_Login -->
+      <class name="inventoryTestCase.TC03_VerifyRemoveButton">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- inventoryTestCase.TC03_VerifyRemoveButton -->
+      <class name="LoginTestCase.TC02_Login">
+        <methods>
+          <include name="starWebDriver"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC02_Login -->
+    </classes>
+  </test> <!-- TC01_Login(failed) -->
+  <test parallel="tests" name="TC02_Login(failed)">
+    <classes>
+      <class name="LoginTestCase.TC01_Login">
+        <methods>
+          <include name="starWebDriver"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC01_Login -->
+      <class name="inventoryTestCase.TC03_VerifyRemoveButton">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- inventoryTestCase.TC03_VerifyRemoveButton -->
+      <class name="LoginTestCase.TC02_Login">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="TC02"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC02_Login -->
+    </classes>
+  </test> <!-- TC02_Login(failed) -->
+  <test parallel="tests" name="TC03_verifyRemoveButton(failed)">
+    <classes>
+      <class name="LoginTestCase.TC01_Login">
+        <methods>
+          <include name="starWebDriver"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC01_Login -->
+      <class name="inventoryTestCase.TC03_VerifyRemoveButton">
+        <methods>
+          <include name="starWebDriver"/>
+          <include name="closeDriver"/>
+          <include name="TC03"/>
+        </methods>
+      </class> <!-- inventoryTestCase.TC03_VerifyRemoveButton -->
+      <class name="LoginTestCase.TC02_Login">
+        <methods>
+          <include name="starWebDriver"/>
+        </methods>
+      </class> <!-- LoginTestCase.TC02_Login -->
+    </classes>
+  </test> <!-- TC03_verifyRemoveButton(failed) -->
+</suite> <!-- Failed suite [RegressionAutomatedQA] -->

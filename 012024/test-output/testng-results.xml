@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T14:00:32Z" name="Default suite" finished-at="2024-01-27T14:00:38Z" duration-ms="6210">
+  <suite started-at="2024-02-24T15:38:40Z" name="Default suite" finished-at="2024-02-24T15:38:43Z" duration-ms="3757">
     <groups>
     </groups>
-    <test started-at="2024-01-27T14:00:32Z" name="Default test" finished-at="2024-01-27T14:00:38Z" duration-ms="6210">
-      <class name="prueba.PruebaTest">
-        <test-method signature="f()[pri:0, instance:prueba.PruebaTest@2767e23c]" started-at="2024-01-27T06:00:32Z" name="f" finished-at="2024-01-27T06:00:38Z" duration-ms="6159" status="PASS">
+    <test started-at="2024-02-24T15:38:40Z" name="Default test" finished-at="2024-02-24T15:38:43Z" duration-ms="3757">
+      <class name="LoginTestCase.TC03_LoginXslData">
+        <test-method is-config="true" signature="starWebDriver()[pri:0, instance:LoginTestCase.TC03_LoginXslData@659a2455]" started-at="2024-02-24T07:38:40Z" name="starWebDriver" finished-at="2024-02-24T07:38:40Z" duration-ms="850" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- prueba.PruebaTest -->
+        </test-method> <!-- starWebDriver -->
+        <test-method signature="TC03()[pri:0, instance:LoginTestCase.TC03_LoginXslData@659a2455]" started-at="2024-02-24T07:38:40Z" name="TC03" finished-at="2024-02-24T07:38:42Z" duration-ms="1794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:LoginTestCase.TC03_LoginXslData@659a2455]" started-at="2024-02-24T07:38:42Z" name="closeDriver" finished-at="2024-02-24T07:38:43Z" duration-ms="1059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- LoginTestCase.TC03_LoginXslData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

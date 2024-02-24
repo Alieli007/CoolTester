@@ -44,7 +44,11 @@ public class Findelements {
 			
 		}
 			
-
+		// esperas en selenium webdriver soluciona o evita fecuetnes errores de tiempo. immpricit wait todoe en general explisit para elemento ene specifico.
+		
+		
+		
+		
 		
 		
 		
